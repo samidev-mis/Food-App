@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex overflow-hidden px-2 bg-[rgb(237,242,247)]  md:px-6 lg:px-8 mt-6 sm:mt-8 lg:mt-16  2xl:px-80 2xl:mt-28 h-96 lg:h-60'>
+    <div className='flex overflow-hidden px-2 bg-[rgb(237,242,247)]  md:px-6 lg:px-8 pt-6 sm:pt-8 lg:pt-16  2xl:px-80 2xl:pt-28 h-[590px]  lg:h-60 xl:h-[600px]'>
         <div className="sm:container grid grid-cols-1 lg:grid-cols-2 gap-6 xl:grid-cols-3 pt-5 ">
             <div data-aos="fade-up"
               data-aos-anchor-placement="top-bottom"  data-aos-offset="200" className="grid grid-cols-2 md:grid-cols-4  xl:col-span-2 place-items-center place-content-center">

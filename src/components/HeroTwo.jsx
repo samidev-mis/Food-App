@@ -6,13 +6,13 @@ const HeroTwo = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 space-x-0 space-y-6 lg:space-y-0 lg:space-x-10">
            
             <div data-aos="fade-right"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine" className="flex justify-center items-center">
                 <img className='rounded-2xl object-cover   ' src="public/herotwo.avif" alt="hero image1" />
             </div>
 
             <div data-aos="fade-left"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine"className="space-y-6 lg:space-y-6">
               <span className="text-xs text-secondary text-center lg:text-left">Established Since 2014</span>
                <h1 className="text-primary text-4xl text-center lg:text-left md:text-5xl lg:text-4xl xl:text-6xl font-extrabold ">We've been serving 

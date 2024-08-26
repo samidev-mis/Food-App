@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { FaX } from 'react-icons/fa6';
-import { RxHamburgerMenu } from 'react-icons/rx';S
-import { Link, NavLink } from 'react-router-dom'
-SS
+import { RxHamburgerMenu } from 'react-icons/rx';
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     const Menu = [
@@ -67,7 +66,8 @@ const Navbar = () => {
                     <button className="px-8 py-2 bg-secondary/85 hover:bg-secondary text-white font-semibold text-sm rounded-md">Sign Up</button>
                     </div>
                 </div>
-                <div className="flex lg:hidden">
+                <div data-aos="fade-left"
+                    data-aos-offset="300" className="flex lg:hidden">
                     <button className='hover:bg-secondary/95 text-2xl bg-secondary text-white p-1 rounded-sm font-semibold' onClick={toggleNavbar}>
                     {open ? <FaX /> : <RxHamburgerMenu />}
                     </button>

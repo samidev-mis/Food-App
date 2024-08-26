@@ -6,9 +6,9 @@ const HeroOne = () => {
     <div className='flex justify-center px-2 md:px-6 lg:px-10  mt-10 sm:mt-28 lg:mt-36 2xl:px-96 2xl:mt-40'>
         <div className="grid grid-cols-1 lg:grid-cols-2 space-x-0 space-y-6 lg:space-y-0 lg:space-x-10">
             <div data-aos="fade-right"
-              data-aos-offset="300"
+              data-aos-offset="200"
               data-aos-easing="ease-in-sine"
-                className="space-y-8 lg:space-y-9 xl:space-x-10">
+                className=" space-y-8 lg:space-y-9 xl:space-x-10">
               <div className=" space-y-6">
               <h1 className="text-primary text-4xl text-center lg:text-left md:text-5xl lg:text-4xl  xl:text-6xl font-extrabold ">Delicious & Affordable <span className='text-secondary '> Meals Near You.</span></h1>
               <p className="text-sm text-Gray text-center  lg:text-left font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -19,7 +19,7 @@ const HeroOne = () => {
              </div>
             </div>
             <div  data-aos="fade-left"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine" className="flex justify-center">
                 <img className='rounded-2xl  ' src="public/heroimage1.avif" alt="hero image1" />
                

@@ -11,6 +11,7 @@ import ChooseUs from './components/ChooseUs'
 import Customer from './components/Customer'
 import Download from './components/Download'
 import Footer from './components/Footer'
+import HeroOne from './components/HeroOne'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
   return (
     <div className='overflow-x-hidden'>
       <Navbar />
+      <HeroOne />
       <HeroTwo />
       <Checkout/>
       <CheckSection />
