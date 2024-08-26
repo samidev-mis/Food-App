@@ -3,7 +3,7 @@ import { MdOutlineSlowMotionVideo } from 'react-icons/md'
 
 const HeroOne = () => {
   return (
-    <div className='flex justify-center px-2 md:px-6 lg:px-10  mt-10 sm:mt-28 lg:mt-36 2xl:px-96 2xl:mt-40'>
+    <div className='flex justify-center px-2 md:px-6 lg:px-10  mt-20 sm:mt-32 lg:mt-36 2xl:px-96 2xl:mt-40'>
         <div className="grid grid-cols-1 lg:grid-cols-2 space-x-0 space-y-6 lg:space-y-0 lg:space-x-10">
             <div data-aos="fade-right"
               data-aos-offset="200"
